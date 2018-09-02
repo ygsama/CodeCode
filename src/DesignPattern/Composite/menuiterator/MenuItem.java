@@ -9,7 +9,7 @@ public class MenuItem extends MenuComponent {
 	String description;
 	boolean vegetarian;
 	double price;
-    
+   
 	public MenuItem(String name, 
 	                String description, 
 	                boolean vegetarian, 

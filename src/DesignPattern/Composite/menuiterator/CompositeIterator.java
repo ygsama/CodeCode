@@ -9,7 +9,7 @@ public class CompositeIterator implements Iterator {
 	public CompositeIterator(Iterator iterator) {
 		stack.push(iterator);
 	}
-   
+  
 	public Object next() {
 		if (hasNext()) {
 			Iterator iterator = (Iterator) stack.peek();

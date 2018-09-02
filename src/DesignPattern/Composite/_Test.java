@@ -125,7 +125,7 @@ public class _Test {
 		coffeeMenu.add(new MenuItem(
 			"Bagel",
 			"Flavors include sesame, poppyseed, cinnamon raisin, pumpkin",
-			false,
+			false, 
 			0.69));
 		coffeeMenu.add(new MenuItem(
 			"Biscotti",

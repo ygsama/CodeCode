@@ -8,7 +8,7 @@ public class Menu extends MenuComponent {
 	ArrayList menuComponents = new ArrayList();
 	String name;
 	String description;
-  
+ 
 	public Menu(String name, String description) {
 		this.name = name;
 		this.description = description;

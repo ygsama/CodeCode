@@ -12,7 +12,7 @@ public class Menu extends MenuComponent {
 		this.name = name;
 		this.description = description;
 	}
- 
+
 	public void add(MenuComponent menuComponent) {
 		menuComponents.add(menuComponent);
 	}

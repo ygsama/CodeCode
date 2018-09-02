@@ -9,7 +9,7 @@ public abstract class MenuComponent {
 	}
 	public void remove(MenuComponent menuComponent) {
 		throw new UnsupportedOperationException();
-	}
+	} 
 	public MenuComponent getChild(int i) {
 		throw new UnsupportedOperationException();
 	}
