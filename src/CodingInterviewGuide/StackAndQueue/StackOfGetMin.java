@@ -2,7 +2,7 @@ package CodingInterviewGuide.StackAndQueue;
 
 import java.util.Stack;
 
-/**	实现一个能够getMin()的栈
+/**	实现一个能够getMin()的栈 
  * 设计一个特殊的栈，字啊其基本功能之上，再实现返回栈的最小元素操作
  * 
  * 1. pop、push、getMin操作的时间复杂度为O(1)
