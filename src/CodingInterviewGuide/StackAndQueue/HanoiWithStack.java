@@ -16,10 +16,12 @@ public class HanoiWithStack {
 		if (num<1){
 			return 0;
 		}
-		
 		return process(num,left,mid,right,left,right);
 	}
 	
+	/**
+	 * 递归
+	 */
 	static int process(int num, String left, String mid, String right,String from, String to){
 		// 只剩最上层的塔需要移动
 		if(num == 1){
@@ -100,6 +102,5 @@ public class HanoiWithStack {
 	public static void main(String[] args) {
 		System.out.println(hanoi2(3, "left", "mid", "right"));
 		System.out.println(hanoi1(3, "left", "mid", "right"));
-		
 	}
 }
