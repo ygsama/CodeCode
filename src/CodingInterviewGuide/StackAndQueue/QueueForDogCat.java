@@ -3,7 +3,7 @@ package CodingInterviewGuide.StackAndQueue;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/**		猫狗队列
+/**		猫狗队列 
  * 用户可以add一个猫或一只狗
  * poAll将所有动物依次弹出
  * pollDog和pollCat分别只弹出猫或者狗
