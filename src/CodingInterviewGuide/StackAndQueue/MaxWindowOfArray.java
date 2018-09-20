@@ -17,6 +17,12 @@ import java.util.LinkedList;
  */
 public class MaxWindowOfArray {
 
+	
+	static int[] getMaxWindow2(int[] arr, int w){
+		return null;
+	}
+	
+	
 	/**
 	 * 时间复杂度O(N)
 	 */
