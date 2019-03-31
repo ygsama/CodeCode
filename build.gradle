@@ -1,0 +1,21 @@
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+
+    group = 'com.github.ygsama'
+    version = "0.0.1-SNAPSHOT"
+    sourceCompatibility = '1.8'
+
+    [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+    repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
+        maven {
+            url 'http://www.datanucleus.org/downloads/maven2/'
+        }
+        mavenCentral()
+    }
+}
