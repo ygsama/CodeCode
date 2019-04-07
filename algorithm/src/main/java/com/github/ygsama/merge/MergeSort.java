@@ -1,4 +1,4 @@
-package com.github.ygsama.sort.mergesort;
+package com.github.ygsama.merge;
 
 
 /**
